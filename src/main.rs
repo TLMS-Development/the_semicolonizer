@@ -29,6 +29,7 @@ fn main() {
             }
             Err(e) => {
                 eprintln!("Error reading from stdin: {}", e);
+                return;
             }
         }
     }
